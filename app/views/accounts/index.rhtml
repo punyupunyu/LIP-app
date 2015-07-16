@@ -1,0 +1,19 @@
+<div class="header">
+  <div class="container">
+    <h1>Accounts Feed</h1>
+  </div>
+</div>
+
+<div class="accounts">
+  <div class="container">
+  
+    <!-- Your code here -->
+    <% @accounts.each do |account| %>
+    <div class="account">
+      <p class="content"><%= account.content %></p>
+      <p class ="time"><%= account.created_at %></p>
+    </div>
+    <% end %>
+    <%= link_to 'New account', "accounts/new" %>
+  </div>
+</div>
