@@ -12,6 +12,7 @@ class AccountsController < ApplicationController
 		else
 			render 'new'
 		end
+	end
 	def feed
 		@posts = posts.all
 		respond_to do |format|
@@ -23,4 +24,5 @@ class AccountsController < ApplicationController
 	private
 	def account_params
 		params.require(:account).permit(:account)	
+	end
 end
