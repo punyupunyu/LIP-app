@@ -1,5 +1,9 @@
 == README
 
+LEADING INDICATORS PROGRAM FOR MOZU
+
+THIS APP PULLS DATA FROM LINKEDIN/INDEED/SIMPLYHIRED AND POSTS THEM TO THE SITE
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
