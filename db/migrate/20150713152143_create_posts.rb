@@ -3,6 +3,7 @@ class CreatePosts < ActiveRecord::Migration
     create_table :posts do |t|
     	t.string :description
     	t.text :content
+    	t.string :account
     	t.belongs_to :accounts, index: true
 
 
